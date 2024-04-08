@@ -62,7 +62,7 @@ where
     Ok(Random(r))
 }
 
-pub(crate) mod sealed {
+pub mod sealed {
     use crate::error;
 
     pub trait SecureRandom: core::fmt::Debug {
